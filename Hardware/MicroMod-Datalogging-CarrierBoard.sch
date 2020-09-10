@@ -28053,12 +28053,12 @@ Out</text>
 <wire x1="20.32" y1="53.34" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-45.72" x2="-20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-45.72" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
-<pin name="SPI_SCK/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
-<pin name="SPI_SDO/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
+<pin name="SPI_SCK1/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
+<pin name="SPI_SDO1/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
 <pin name="SDIO_DATA1" x="22.86" y="43.18" length="short" rot="R180"/>
-<pin name="SPI_SDI/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
+<pin name="SPI_SDI1/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
 <pin name="SDIO_DATA2" x="22.86" y="40.64" length="short" rot="R180"/>
-<pin name="SPI_!CS!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
+<pin name="SPI_!CS1!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
 <pin name="AUD_MCLK" x="-22.86" y="0" length="short"/>
 <pin name="D0" x="22.86" y="10.16" length="short" rot="R180"/>
 <pin name="SWDCK" x="-22.86" y="5.08" length="short"/>
@@ -28071,9 +28071,9 @@ Out</text>
 <pin name="A0" x="22.86" y="20.32" length="short" rot="R180"/>
 <pin name="PWM1" x="22.86" y="12.7" length="short" rot="R180"/>
 <pin name="PWM0" x="22.86" y="15.24" length="short" rot="R180"/>
-<pin name="SPI_SCK1" x="22.86" y="33.02" length="short" rot="R180"/>
-<pin name="SPI_SDO1" x="22.86" y="30.48" length="short" rot="R180"/>
-<pin name="SPI_SDI1" x="22.86" y="27.94" length="short" rot="R180"/>
+<pin name="SPI_SCK" x="22.86" y="33.02" length="short" rot="R180"/>
+<pin name="SPI_SDO" x="22.86" y="30.48" length="short" rot="R180"/>
+<pin name="SPI_SDI" x="22.86" y="27.94" length="short" rot="R180"/>
 <pin name="BATT_VIN/3" x="-22.86" y="-30.48" length="short"/>
 <pin name="RX1" x="22.86" y="0" length="short" rot="R180"/>
 <pin name="TX1" x="22.86" y="2.54" length="short" rot="R180"/>
@@ -28109,7 +28109,7 @@ Out</text>
 <pin name="G8" x="22.86" y="-35.56" length="short" rot="R180"/>
 <pin name="G9/ADC_D-/CAM_HSYNC" x="22.86" y="-38.1" length="short" rot="R180"/>
 <pin name="G10/ADC_D+/CAM_VSYNC" x="22.86" y="-40.64" length="short" rot="R180"/>
-<pin name="SPI_!CS!1" x="22.86" y="25.4" length="short" rot="R180"/>
+<pin name="SPI_!CS!" x="22.86" y="25.4" length="short" rot="R180"/>
 <text x="-20.32" y="53.848" size="1.778" layer="95">&gt;Name</text>
 <text x="-20.32" y="-48.26" size="1.778" layer="96">&gt;Value</text>
 <pin name="RTC_3V" x="-22.86" y="38.1" length="short"/>
@@ -28171,14 +28171,14 @@ Out</text>
 <connect gate="J1" pin="RX2" pad="20"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
-<connect gate="J1" pin="SPI_SCK1" pad="57"/>
-<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_SDI1" pad="61"/>
-<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_SDO1" pad="59"/>
+<connect gate="J1" pin="SPI_!CS!" pad="55"/>
+<connect gate="J1" pin="SPI_!CS1!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_SCK" pad="57"/>
+<connect gate="J1" pin="SPI_SCK1/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SDI" pad="61"/>
+<connect gate="J1" pin="SPI_SDI1/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDO" pad="59"/>
+<connect gate="J1" pin="SPI_SDO1/SDIO_CMD" pad="62"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -28238,14 +28238,14 @@ Out</text>
 <connect gate="J1" pin="RX2" pad="20"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
-<connect gate="J1" pin="SPI_SCK1" pad="57"/>
-<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_SDI1" pad="61"/>
-<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_SDO1" pad="59"/>
+<connect gate="J1" pin="SPI_!CS!" pad="55"/>
+<connect gate="J1" pin="SPI_!CS1!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_SCK" pad="57"/>
+<connect gate="J1" pin="SPI_SCK1/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SDI" pad="61"/>
+<connect gate="J1" pin="SPI_SDI1/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDO" pad="59"/>
+<connect gate="J1" pin="SPI_SDO1/SDIO_CMD" pad="62"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -28885,11 +28885,6 @@ control of 3.3V bus.</text>
 <label x="259.08" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT1/NC"/>
 </segment>
-<segment>
-<wire x1="78.74" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<label x="81.28" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SDIO_DATA1"/>
-</segment>
 </net>
 <net name="SPI_SCK" class="0">
 <segment>
@@ -28898,14 +28893,14 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="CLK/SCK"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<label x="81.28" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
-</segment>
-<segment>
 <wire x1="246.38" y1="33.02" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
 <label x="243.84" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J12" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J6" gate="J1" pin="SPI_SCK"/>
+<wire x1="78.74" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
+<label x="81.28" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SD_!CS!" class="0">
@@ -28919,9 +28914,9 @@ control of 3.3V bus.</text>
 <junction x="254" y="254"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
-<label x="81.28" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SPI_!CS!/SDIO_DATA3"/>
+<pinref part="J6" gate="J1" pin="SPI_!CS!"/>
+<wire x1="78.74" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="81.28" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SD_DAT2" class="0">
@@ -28929,11 +28924,6 @@ control of 3.3V bus.</text>
 <wire x1="261.62" y1="251.46" x2="259.08" y2="251.46" width="0.1524" layer="91"/>
 <label x="259.08" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT2/NC"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<label x="81.28" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SDIO_DATA2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -29608,9 +29598,9 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="CMD/SDI"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<label x="81.28" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SPI_SDO/SDIO_CMD"/>
+<pinref part="J6" gate="J1" pin="SPI_SDO"/>
+<wire x1="78.74" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
+<label x="81.28" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_CIPO" class="0">
@@ -29625,9 +29615,9 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="DAT0/SDO"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<label x="81.28" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="J1" pin="SPI_SDI/SDIO_DATA0"/>
+<pinref part="J6" gate="J1" pin="SPI_SDI"/>
+<wire x1="78.74" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<label x="81.28" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HEADER_!CS!" class="0">
