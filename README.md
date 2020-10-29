@@ -1,7 +1,7 @@
 SparkFun MicroMod Data Logging Carrier Board
 ========================================
 
-![SparkFun MicroMod Data Logging Carrier Board](https://cdn.sparkfun.com/assets/parts/1/5/7/5/0/16829-SparkFun_MicroMod_Data_Logging_Carrier_Board-01.jpg)
+![SparkFun MicroMod Data Logging Carrier Board](https://cdn.sparkfun.com/assets/parts/1/5/7/5/0/16829-SparkFun_MicroMod_Data_Logging_Carrier_Board-01A.jpg)
 
 [SparkFun MicroMod Data Logging Carrier Board (DEV-16829)](https://www.sparkfun.com/products/16829)
 

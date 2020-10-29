@@ -33,22 +33,22 @@ void loop() {
   delay(2000);
 }
 
-//Qwiic connector power is controlled from P-channel MOSFET so logic is reversed
+//Qwiic connector power is controlled from an LDO voltage regulator
 void qwiicPowerOn()
-{
-  digitalWrite(qwiicPowerControl, LOW);
-}
-void qwiicPowerOff()
 {
   digitalWrite(qwiicPowerControl, HIGH);
 }
+void qwiicPowerOff()
+{
+  digitalWrite(qwiicPowerControl, LOW);
+}
 
-//3V3 peripheral power is controlled from P-channel MOSFET so logic is reversed
+//3V3 peripheral power is controlled from an LDO voltage regulator
 void peripheralPowerOn()
 {
-  digitalWrite(peripheralPowerControl, LOW);
+  digitalWrite(peripheralPowerControl, HIGH);
 }
 void peripheralPowerOff()
 {
-  digitalWrite(peripheralPowerControl, HIGH);
+  digitalWrite(peripheralPowerControl, LOW);
 }
