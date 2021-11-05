@@ -11302,9 +11302,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$42" library="output" package="#GND#0" value="" x="39.37" y="39.37" smashed="yes"/>
 </elements>
 <signals>
-<signal name="SD_DAT1">
-<contactref element="J11" pad="DAT1"/>
-</signal>
 <signal name="SPI_SCK">
 <contactref element="J11" pad="SCLK"/>
 <wire x1="55.15" y1="23.59" x2="52.864" y2="23.59" width="0.1778" layer="1"/>
@@ -11345,9 +11342,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="21.9575" y1="23.876" x2="21.9575" y2="25.2865" width="0.1778" layer="1"/>
 <wire x1="21.9575" y1="25.2865" x2="21.336" y2="25.908" width="0.1778" layer="1"/>
 <wire x1="21.336" y1="25.908" x2="20.32" y2="25.908" width="0.1778" layer="1"/>
-</signal>
-<signal name="SD_DAT2">
-<contactref element="J11" pad="DAT2"/>
 </signal>
 <signal name="GND">
 <contactref element="R2" pad="1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28564,9 +28564,9 @@ control of 3.3V bus.</text>
 <attribute name="NAME" x="252.476" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="255.524" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="S1" gate="G$1" x="114.3" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.776" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="114.808" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="S1" gate="G$1" x="132.08" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.556" y="109.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="132.588" y="109.22" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="45.72" y="241.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="47.244" y="244.094" size="1.778" layer="95" font="vector"/>
@@ -28603,8 +28603,8 @@ control of 3.3V bus.</text>
 <instance part="GND11" gate="1" x="144.78" y="45.72" smashed="yes">
 <attribute name="VALUE" x="144.78" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="114.3" y="45.72" smashed="yes">
-<attribute name="VALUE" x="114.3" y="45.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="132.08" y="99.06" smashed="yes">
+<attribute name="VALUE" x="132.08" y="98.806" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="27.94" y="251.46" smashed="yes">
 <attribute name="VALUE" x="27.94" y="254.254" size="1.778" layer="96" align="bottom-center"/>
@@ -28623,12 +28623,12 @@ control of 3.3V bus.</text>
 <instance part="GND6" gate="1" x="45.72" y="233.68" smashed="yes">
 <attribute name="VALUE" x="45.72" y="233.426" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="S2" gate="G$1" x="127" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.476" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="127.508" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="S2" gate="G$1" x="144.78" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.256" y="109.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="145.288" y="109.22" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND15" gate="1" x="127" y="45.72" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="127" y="45.466" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND15" gate="1" x="144.78" y="99.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="144.78" y="98.806" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="J8" gate="G$1" x="205.74" y="66.04" smashed="yes" rot="R180">
 <attribute name="VALUE" x="202.184" y="74.422" size="1.778" layer="96" font="vector"/>
@@ -28786,9 +28786,9 @@ control of 3.3V bus.</text>
 <attribute name="NAME" x="187.198" y="171.958" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="183.134" y="167.64" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
 </instance>
-<instance part="J13" gate="G$1" x="104.14" y="63.5" smashed="yes">
-<attribute name="VALUE" x="101.6" y="58.674" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="101.6" y="66.548" size="1.778" layer="95" font="vector"/>
+<instance part="J13" gate="G$1" x="121.92" y="116.84" smashed="yes">
+<attribute name="VALUE" x="119.38" y="112.014" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="119.38" y="119.888" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="3V3_LED" gate="G$1" x="149.86" y="259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="147.828" y="254.254" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -28879,13 +28879,6 @@ control of 3.3V bus.</text>
 <busses>
 </busses>
 <nets>
-<net name="SD_DAT1" class="0">
-<segment>
-<wire x1="261.62" y1="248.92" x2="259.08" y2="248.92" width="0.1524" layer="91"/>
-<label x="259.08" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="DAT1/NC"/>
-</segment>
-</net>
 <net name="SPI_SCK" class="0">
 <segment>
 <wire x1="261.62" y1="243.84" x2="259.08" y2="243.84" width="0.1524" layer="91"/>
@@ -28917,13 +28910,6 @@ control of 3.3V bus.</text>
 <pinref part="J6" gate="J1" pin="SPI_!CS!"/>
 <wire x1="78.74" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="81.28" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SD_DAT2" class="0">
-<segment>
-<wire x1="261.62" y1="251.46" x2="259.08" y2="251.46" width="0.1524" layer="91"/>
-<label x="259.08" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="DAT2/NC"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -29003,7 +28989,7 @@ control of 3.3V bus.</text>
 <wire x1="144.78" y1="50.8" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="50.8" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
@@ -29015,7 +29001,7 @@ control of 3.3V bus.</text>
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="127" y1="48.26" x2="127" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="101.6" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J10" gate="G$1" pin="6"/>
@@ -29378,12 +29364,12 @@ control of 3.3V bus.</text>
 <pinref part="J6" gate="J1" pin="!RESET!"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="60.96" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="114.3" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="2"/>
-<label x="116.84" y="63.5" size="1.27" layer="95" xref="yes"/>
-<wire x1="114.3" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
-<junction x="114.3" y="63.5"/>
+<label x="134.62" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="132.08" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<junction x="132.08" y="116.84"/>
 <pinref part="J13" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -29509,9 +29495,9 @@ control of 3.3V bus.</text>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="127" y1="60.96" x2="127" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="127" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
-<label x="129.54" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="144.78" y1="114.3" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<label x="147.32" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A0" class="0">
